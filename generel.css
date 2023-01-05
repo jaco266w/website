@@ -1,0 +1,45 @@
+/* Custom farver og fonte */
+html {
+    --color-primary: #364F6B;
+    --color-heading: #F5F5F5;
+    --color-subheading: #3FC1C9;
+    --color-text: #5F5F5F;
+    --color-link: #FC5185;
+
+    --font-family: articulat-cf;
+    --font-weight-heading: 700;
+    --font-weight-subheading: 400;
+    --font-weight-text: 200;
+}
+
+/* Nulstilling af margin og padding på alle elementer, samt ændring af box model på alle elementer */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* Normalisering af font og linjehøjde på dokumentets tekster, samt nedtoning af tekstfarven */
+  body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    color: #2d2d2d;
+  }
+  
+   
+  
+  /* Normalisering af billeder */
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  h1 {
+    font-size: 5rem;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-heading);
+    color: var(--color-primary);
+  }
+
