@@ -1,0 +1,28 @@
+.bounce {
+    animation-name: bounce_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes bounce_kf {
+    0% {
+        transform: translateY(0%);
+    }
+
+    25% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    75% {
+        transform: translateY(-5%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}

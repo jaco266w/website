@@ -1,3 +1,5 @@
+/* ---------------- Forside CSS ----------- */
+
 #forside > section {
     background-color: var(--color-primary);
 }
@@ -29,31 +31,38 @@
     width: 8%;
 }
 
-.bounce {
-    animation-name: bounce_kf;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-out;
+
+/* -------------- Tema 2 ------------------- */
+
+.rubrik {
+    display: grid;
 }
 
-@keyframes bounce_kf {
-    0% {
-        transform: translateY(0%);
-    }
+.rubrik > img {
+    margin-top: -1px;
+    grid-column: 1;
+    grid-row: 1;
 
-    25% {
-        transform: translateY(-10%);
-    }
-
-    50% {
-        transform: translateY(0%);
-    }
-
-    75% {
-        transform: translateY(-5%);
-    }
-
-    100% {
-        transform: translateY(0%);
-    }
+    z-index: -1;
 }
+
+.rubrik > div {
+    grid-column: 1;
+    grid-row: 1;
+
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.rubrik > div > ol > li {
+    list-style:inside;
+
+    font-size: 1.5rem;
+    color: var(--color-link);
+}
+
+.rubrik > div > ol > li:hover {
+    text-decoration: underline;
+}
+
+
