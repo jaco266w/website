@@ -1,4 +1,4 @@
-/* ---------------- Forside CSS ----------- */
+/* ---------------- Forside ----------- */
 
 #forside > section {
     background-color: var(--color-primary);
@@ -12,8 +12,6 @@
     padding-top: 100px;
     padding-left: 200px;
     padding-right: 200px;
-    
-
 
 }
 
@@ -28,11 +26,13 @@
 #forside > section > img {
     margin-left: auto;
     margin-right: auto;
-    width: 8%;
+    
+    width: 100px;
+
 }
 
 
-/* -------------- Tema 2 ------------------- */
+/* -------------- portfolio ------------------- */
 
 .rubrik {
     display: grid;

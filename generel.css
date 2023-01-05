@@ -77,3 +77,51 @@ html {
     background-color: var(--color-primary);
   }
 
+  /* ------------------- footer ------------------- */
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+
+    background-color: var(--color-primary);
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+    padding-left: 5%;
+  }
+
+  footer h4 {
+    font-size: 1.3rem;
+    color: var(--color-heading);
+
+    margin-bottom: 10px;
+  }
+
+  footer li {
+    list-style: none;
+  }
+
+  #socials {
+    display: flex;
+    gap: 10px;
+  }
+
+  #socials a {
+    margin-top: 2%;
+    width: 30px;
+
+    transition: 0.5s;
+  }
+
+  #socials a:hover {
+    filter: grayscale(100%);
+
+    transition: 0.5s;
+  }
+
+  footer p {
+    font-size: 1rem;
+
+    color: grey;
+  }
+
