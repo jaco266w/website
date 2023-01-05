@@ -1,0 +1,59 @@
+#forside > section {
+    background-color: var(--color-primary);
+}
+
+#forside > section > div {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 30px;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+
+
+}
+
+#forside > section > div > h1 {
+    font-size: 3rem;
+}
+
+#forside > section > div > img {
+    width: 400px;
+}
+
+#forside > section > img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+}
+
+.bounce {
+    animation-name: bounce_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+@keyframes bounce_kf {
+    0% {
+        transform: translateY(0%);
+    }
+
+    25% {
+        transform: translateY(-10%);
+    }
+
+    50% {
+        transform: translateY(0%);
+    }
+
+    75% {
+        transform: translateY(-5%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}

@@ -37,9 +37,43 @@ html {
   }
 
   h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: var(--font-family);
     font-weight: var(--font-weight-heading);
-    color: var(--color-primary);
+    color: var(--color-heading);
+  }
+
+  p {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-text);
+    font-size: 1.3rem;
+    color: var(--color-text);
+  }
+
+  a {
+    color: var(--color-link);
+    text-decoration: none;
+
+    transition: 1s;
+  }
+
+  a:hover {
+    text-decoration: underline;
+
+    transition: 1s;
+  }
+
+  nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10%;
+    padding-top: 20px;
+    padding-right: 200px;
+
+    font-size: 1.5rem;
+
+    list-style: none;
+
+    background-color: var(--color-primary);
   }
 
