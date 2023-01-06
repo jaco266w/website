@@ -10,6 +10,8 @@ html {
     --font-weight-heading: 700;
     --font-weight-subheading: 400;
     --font-weight-text: 200;
+
+    scroll-behavior: smooth;
 }
 
 /* Nulstilling af margin og padding på alle elementer, samt ændring af box model på alle elementer */
@@ -130,9 +132,11 @@ html {
   width: 250px;
   padding-top: 5px;
   padding-bottom: 5px;
+
+  cursor: pointer;
 }
 
-.knap_web a > p {
+.knap_web p {
   color: var(--color-heading);
   font-size: 1.2rem;
   font-family: var(--font-family);
@@ -146,6 +150,23 @@ html {
 
 .knap_web a:hover {
   color: var(--color-heading);
+
+}
+
+.knap_web a:hover img {
+  animation-name: roter_forsvind_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+.knap_web a:hover p {
+  animation-name: forsvind_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
 }
 
 

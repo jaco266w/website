@@ -26,3 +26,63 @@
         transform: translateY(0%);
     }
 }
+
+.forsvind {
+    animation-name: forsvind_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes forsvind_kf {
+    0% {
+        filter: opacity(100%);
+    }
+
+    25% {
+        filter: opacity(0%);
+    }
+
+    50% {
+        filter: opacity(0%);
+    }
+
+    75% {
+        filter: opacity(0%);
+    }
+
+    100% {
+        filter: opacity(0%);
+    }
+}
+
+.roter_forsvind {
+    animation-name: roter_forsvind_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+@keyframes roter_forsvind_kf {
+    0% {
+        transform: translateX(0%);
+    }
+
+    25% {
+        transform: translateX(0%) rotate(0deg);
+    }
+
+    50% {
+        transform: translateX(85px) rotate(360deg);
+    }
+
+    75% {
+        transform: translateX(85px) rotate3d(360deg);
+        filter: opacity(100%);
+    }
+
+    100% {
+        transform: translate(85px) rotate(360deg);
+        filter: opacity(0%);
+    }
+}
