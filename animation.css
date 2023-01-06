@@ -83,6 +83,6 @@
 
     100% {
         transform: translate(85px) rotate(360deg);
-        filter: opacity(0%);
+        filter: opacity(100%);
     }
 }

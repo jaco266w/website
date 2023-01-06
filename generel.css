@@ -38,6 +38,11 @@ html {
     display: block;
   }
 
+  .maks_vidde {
+    margin-left: 7%;
+    margin-right: 10%;
+  }
+
 
   /* ------------------ Skrifter ----------------- */
 
@@ -62,14 +67,22 @@ html {
     color: var(--color-text);
   }
 
-  a {
+  a:not(.a_eks) {
     color: var(--color-link);
     text-decoration: none;
   }
 
-  a:hover {
+  a:hover:not(.a_eks){
     text-decoration: underline;
 
+  }
+
+  .a_eks {
+    text-decoration: none;
+  }
+
+  .a_eks h3 {
+    color: var(--color-text);
   }
 
   figcaption {
