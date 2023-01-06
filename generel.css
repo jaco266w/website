@@ -36,11 +36,21 @@ html {
     display: block;
   }
 
+
+  /* ------------------ Skrifter ----------------- */
+
   h1 {
     font-size: 4rem;
     font-family: var(--font-family);
     font-weight: var(--font-weight-heading);
     color: var(--color-heading);
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-subheading);
+    color: var(--color-subheading);
   }
 
   p {
@@ -53,22 +63,31 @@ html {
   a {
     color: var(--color-link);
     text-decoration: none;
-
-    transition: 1s;
   }
 
   a:hover {
     text-decoration: underline;
 
-    transition: 1s;
   }
+
+  figcaption {
+    display: flex;
+    justify-content: flex-end;
+
+    font-size: 0.8rem;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-subheading);
+    font-style: italic;
+  }
+
+  /* ------------------- Menu bar --------------- */
 
   nav ul{
     display: flex;
     justify-content: flex-end;
     gap: 10%;
     padding-top: 20px;
-    padding-right: 200px;
+    padding-right: 10%;
 
     font-size: 1.5rem;
 
@@ -76,6 +95,59 @@ html {
 
     background-color: var(--color-primary);
   }
+
+  /* ----------------- Knapper --------------- */
+
+  .tilbage {
+    color: var(--color-primary);
+    background-color: white;
+    border: none;
+
+    font-size: 1.3rem;
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-text);
+    text-decoration: underline;
+    letter-spacing: 2px;
+
+    margin-left: 7%;
+  }
+
+  .tilbage:hover {
+    color: #1b314a;
+
+    font-weight: 400;
+  }
+
+
+.knap_web a {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--color-primary);
+
+  width: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.knap_web a > p {
+  color: var(--color-heading);
+  font-size: 1.2rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.knap_web img {
+  width: 30px;
+}
+
+.knap_web a:hover {
+  color: var(--color-heading);
+}
+
 
   /* ------------------- footer ------------------- */
   footer {
