@@ -163,5 +163,81 @@
     justify-self: center;
 }
 
+/* ----------------- CV -------------- */
+
+#cv_hero {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: var(--color-primary);
+
+    padding-top: 40px;
+}
+
+#cv_hero h2 {
+    color: var(--color-heading);
+}
+
+#cv_hero_content {
+    display: grid;
+    grid-template-columns: 300px 1fr 1fr;
+    gap: 60px;
+    
+    align-items: center;
+}
+
+#cv_hero_content > img {
+    width: 300px;
+}
+
+
+#cv_hero_content a {
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+}
+
+#cv_hero_content a > img {
+    width: 30px;
+}
+
+#cv_detaljer h3 {
+    color: var(--color-link);
+
+    margin-bottom: 10px;
+}
+
+#cv_detaljer p {
+    font-size: 1rem;
+    color: var(--color-heading);
+}
+
+#cv_detaljer div {
+    margin-bottom: 10px;
+}
+
+#cv_detaljer .cv_farve {
+    color: var(--color-link);
+}
+
+.cv_farve_2 {
+    color: var(--color-subheading);
+}
+
+.cv_h3 {
+    margin-top: 50px;
+}
+
+.cv_flex {
+    display: flex;
+    column-gap: 60px;
+    
+    margin-bottom: 20px;
+}
+
+.cv_flex_time {
+    width: 210px;
+}
+
 
 
