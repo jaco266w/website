@@ -1,4 +1,11 @@
 @media (max-width: 1265px) {
+    /* -------------- Skrifter --------------- */
+    h1 {
+        font-size: 3rem;
+    }
+
+
+    /* -------------- Forside ---------- */
     #forside > section > div {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
@@ -14,4 +21,164 @@
         grid-row: 2;
         justify-self: center;
     }
+
+    /* -------------------- Tema sider ------------ */
+    .rubrik > img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+
+    .post_sec1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 1fr 0.1fr 1fr;
+        align-items: flex-start;
+        column-gap: 0;
+
+        margin-left: 10%;
+    }
+
+    .post_sec1_pic {
+        grid-column: 1;
+        grid-row: 2;
+
+        justify-self: center;
+    }
+
+    .post_sec1_link {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .post_sec2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.5fr 0.1fr 1fr;
+        align-items: flex-start;
+        column-gap: 0;
+
+        margin-left: 10%;
+        margin-top: 0px;
+    }
+
+    .post_sec2 h2 {
+        grid-column: 1;
+    }
+
+    .post_sec2_pic {
+        grid-column: 1;
+        grid-row: 2;
+
+        justify-self: center;
+    }
+
+    .post_sec2_link {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .post_sec2_text {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    /* ------------- Om Mig --------------- */
+    #cv_hero_content {
+        grid-template-columns: 300px 1fr;
+    }
+
+    #cv_detaljer {
+        grid-column: 1 / span 2;
+    }
+
+    #cv_detaljer > div {
+        display: flex;
+        flex-wrap: wrap;
+
+        column-gap: 60px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    /* -------------------- Skrifter ----------------- */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    /* -------------------- Menu ----------------------- */
+    nav ul {
+        justify-content: space-between;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    /* --------------------- Forside ------------------- */
+    #forside > section > div {
+        gap: 0;
+    }
+
+    #hero > div > h1 {
+        font-size: 2rem;
+    }
+
+    #hero > div > img {
+        width: 200px;
+    } 
+
+    /* ---------------------  Tema sider --------------- */
+    .rubrik a {
+        font-size: 0.8rem;
+    }
+
+    /* -------------------- Om Mig ------------------- */
+    #cv_hero h1 {
+        text-align: center;
+    }
+
+    #cv_hero_content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.5fr 0.5fr;
+
+        column-gap: 0;
+        row-gap: 20px;
+    }
+
+    #cv_hero_content > img {
+        width: 200px;
+
+        justify-self: center;
+    }
+
+    #cv_navn {
+        grid-row: 2;
+    }
+
+    .cv_flex {
+        flex-wrap: wrap;
+    }
+
+    /* --------------- Footer ------------------------- */
+    footer {
+        grid-template-columns: 3fr 1fr;
+
+    }
+
+    footer section:nth-child(3) {
+        grid-column: span 2;
+    }
+
 }

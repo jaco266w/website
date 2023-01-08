@@ -103,6 +103,7 @@ html {
     color: var(--color-text);
   }
 
+
   figcaption {
     display: flex;
     justify-content: flex-end;
@@ -121,6 +122,7 @@ html {
     gap: 10%;
     padding-top: 20px;
     padding-right: 10%;
+    padding-left: 10%;
 
     font-size: 1.5rem;
 
@@ -131,10 +133,9 @@ html {
 
   /* ----------------- Knapper --------------- */
 
-  .tilbage {
+
+  .knap_portfolio {
     color: var(--color-primary);
-    background-color: white;
-    border: none;
 
     font-size: 1.3rem;
     font-family: var(--font-family);
@@ -145,7 +146,7 @@ html {
     margin-left: 7%;
   }
 
-  .tilbage:hover {
+  .knap_portfolio:hover {
     color: #1b314a;
 
     font-weight: 400;
@@ -212,6 +213,7 @@ html {
     padding-bottom: 2%;
 
     padding-left: 7%;
+    padding-right: 7%;
   }
 
   footer h4 {
