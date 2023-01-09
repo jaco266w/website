@@ -117,6 +117,19 @@
         font-size: 0.8rem;
     }
 
+    /* -------------------- Knapper --------------------- */
+    .knap_web a {
+        width: 160px;
+    }
+
+    .knap_web p {
+        font-size: 0.7rem;
+    }
+
+    .knap_web img {
+        width: 20px;
+    }
+
     /* -------------------- Menu ----------------------- */
     nav ul {
         justify-content: space-between;

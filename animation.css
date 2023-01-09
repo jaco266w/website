@@ -107,3 +107,144 @@
     }
 }
 
+/* ---------------- Load Fase ---------------------- */
+#load_wrapper {
+    background-color: var(--color-primary);
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+}
+
+#load_wrapper img {
+    width: 200px;
+}
+
+#load_wrapper p {
+    font-size: 3rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+
+    color: white;
+}
+
+
+.skjul {
+    display: none;
+}
+
+
+
+
+.load_roter {
+    animation-name: load_roter_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes load_roter_kf {
+    0% {
+        transform: rotate(-360deg);
+    }
+}
+
+.load_frem {
+    animation-name: load_frem_kf;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+@keyframes load_frem_kf {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.load_frem2 {
+    animation-name: load_frem2_kf;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+@keyframes load_frem2_kf {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    75% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.load_tilbage {
+    animation-name: load_tilbage_kf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes load_tilbage_kf {
+    0% {
+        transform: scale(1);
+        opacity: 100%;
+    }
+
+    25%{
+        transform: scale(1.3);
+        opacity: 100%;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0%;
+    }
+}
+
+.skjul_wrapper {
+    animation-name: skjul_wrapper_kf;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes skjul_wrapper_kf {
+    0%{
+        opacity: 100%;
+    }
+
+    100%{
+        opacity: 0%;
+    }
+}
+

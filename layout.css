@@ -115,6 +115,7 @@
 .post_sec1 {
     margin-left: 7%;
     margin-right: 10%;
+    margin-bottom: 20px;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -133,10 +134,16 @@
 
 .post_sec1 h2 {
     grid-column: 1 / span 2;
+    grid-row: 1;
 }
 
 .post_sec1_text {
     grid-column: 1;
+}
+
+.post_sec1_pic {
+    grid-column: 2;
+    grid-row: 2;
 }
 
 .post_sec1_link {
