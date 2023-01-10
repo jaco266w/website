@@ -124,6 +124,8 @@
     left: 0;
 
     z-index: 1;
+
+
 }
 
 #load_wrapper img {
@@ -246,5 +248,10 @@
     100%{
         opacity: 0%;
     }
+}
+
+.stop_scroll {
+    height: 100%;
+    overflow: hidden;
 }
 

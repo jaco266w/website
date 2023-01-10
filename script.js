@@ -14,6 +14,7 @@ function sidenVises() {
     lT2 = document.querySelector("#load_text2");
 
     lImg.classList.add("load_roter");
+    document.body.classList.add("stop_scroll"); 
 
     lImg.addEventListener("animationiteration", rotation);
 
@@ -91,5 +92,6 @@ function remove() {
     lW.removeEventListener("animationend", remove);
 
     lW.remove();
+    document.body.classList.remove("stop_scroll"); 
 
 }
