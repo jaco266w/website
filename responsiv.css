@@ -81,6 +81,10 @@
         grid-row: 4;
     }
 
+    #proces {
+        grid-template-rows: 0.1fr 1fr 1fr;
+    }
+
     /* ------------- Om Mig --------------- */
     #cv_hero_content {
         grid-template-columns: 300px 1fr;

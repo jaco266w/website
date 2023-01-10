@@ -23,7 +23,7 @@
     width: 400px;
 }
 
-#hero > img {
+#hero > a > img {
     margin-left: auto;
     margin-right: auto;
     
@@ -190,6 +190,8 @@
 #t_04_04_01 {
     margin-bottom: 60px;
 }
+
+
 
 /* ----------------- CV -------------- */
 #cv section:nth-child(4) {

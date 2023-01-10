@@ -207,7 +207,7 @@
 
 .load_tilbage {
     animation-name: load_tilbage_kf;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-fill-mode: forwards;
