@@ -33,6 +33,15 @@
 
 /* ----------------- Portfolio ------------------- */
 
+#hero_portfolio {
+    background-color: var(--color-primary);
+
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+}
+
 .parent_portfolio {
     margin-top: 100px;
     margin-bottom: 60px;
@@ -46,13 +55,26 @@
 }
 
 .portfolio_box {
-    width: 400px;
+    width: 300px;
+    padding: 10px 20px 10px 20px;
+    
+    background-color: #f4f4f4;
+    border-radius: 10px;
+
 }
 
-.portfolio_box img {
+.portfolio_box a {
+    display: grid;
+}
+
+.portfolio_box a img {
     margin-bottom: 20px;
 
     border-radius: 10px;
+
+    width: 150px;
+
+    justify-self: center;
 
 }
 

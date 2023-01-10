@@ -14,11 +14,11 @@
     }
 
     #forside > section > div > h1 {
-        grid-row: 1;
+        grid-row: 2;
     }
     
     #forside > section > div > img {
-        grid-row: 2;
+        grid-row: 1;
         justify-self: center;
     }
 
@@ -143,6 +143,15 @@
         font-size: 1rem;
     }
 
+    /* ---------------------- load Fase --------------------*/
+    #load_wrapper img {
+        width: 100px;
+    }
+
+    #load_wrapper p {
+        font-size: 2rem;
+    }
+
     /* --------------------- Forside ------------------- */
     #forside > section > div {
         gap: 0;
@@ -155,6 +164,25 @@
     #hero > div > img {
         width: 200px;
     } 
+
+    /* ------------------- Portfolio -------------------- */
+
+    .maks_vidde {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+
+    .portfolio {
+        gap: 20px;
+    }
+
+    .portfolio_box {
+        width: 150px;
+    }
+
+    .portfolio_box a img {
+        width: 75px;
+    }
 
     /* ---------------------  Tema sider --------------- */
     .rubrik a {
